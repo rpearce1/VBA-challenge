@@ -1,6 +1,6 @@
 Attribute VB_Name = "Module1"
 Sub StockSummary()
-For Each ws In Worksheet(2)
+For Each ws In Worksheets
 
     Dim SummaryTableRow As Integer
     Dim OpenValue As Double
